@@ -784,7 +784,7 @@ html_content = """<!DOCTYPE html>
                 <div class="timeline-item">
                     <div class="timeline-date" data-i18n="exp_date_uoc">2024 — Presente</div>
                     <div class="timeline-title" data-i18n="exp_title_uoc">Formación y Proyectos en Ciencia de Datos (autodidacta)</div>
-                    <div class="timeline-subtitle" data-i18n="exp_subtitle_uoc">UOC — Ciencia de Datos Aplicada</div>
+                    <div class="timeline-subtitle" data-i18n="exp_subtitle_uoc">Ciencia de Datos Aplicada</div>
                     <div class="timeline-content">
                         <ul>
                             <li data-i18n="exp_uoc_bullet1">Cursé formación estructurada en Python (pandas, programación orientada a objetos, control de flujo, manejo de excepciones) y control de versiones con Git/GitHub.</li>
@@ -1032,7 +1032,7 @@ html_content = """<!DOCTYPE html>
                 section_exp: "Experiencia Laboral",
                 exp_date_uoc: "2024 — Presente",
                 exp_title_uoc: "Formación y Proyectos en Ciencia de Datos (autodidacta)",
-                exp_subtitle_uoc: "UOC — Ciencia de Datos Aplicada",
+                exp_subtitle_uoc: "Ciencia de Datos Aplicada",
                 exp_uoc_bullet1: "Cursé formación estructurada en Python (pandas, programación orientada a objetos, control de flujo, manejo de excepciones) y control de versiones con Git/GitHub.",
                 exp_uoc_bullet2: "Desarrollé un pipeline de ingesta y almacenamiento (SQLite) de artículos científicos de PubMed sobre enfermedad cardiovascular, con un asistente de consulta basado en RAG.",
                 exp_uoc_bullet3: "Construí un modelo de predicción de riesgo cardiovascular: limpieza de datos, ingeniería de variables y pipeline de preprocesamiento, comunicado en una app interactiva y una presentación con estadística embebida.",
@@ -1082,7 +1082,7 @@ html_content = """<!DOCTYPE html>
                 section_exp: "Work Experience",
                 exp_date_uoc: "2024 — Present",
                 exp_title_uoc: "Data Science Training and Projects (Self-taught)",
-                exp_subtitle_uoc: "UOC — Applied Data Science",
+                exp_subtitle_uoc: "Applied Data Science",
                 exp_uoc_bullet1: "Completed structured training in Python (pandas, object-oriented programming, control flow, exception handling) and version control with Git/GitHub.",
                 exp_uoc_bullet2: "Developed an ingestion and storage pipeline (SQLite) for PubMed scientific articles on cardiovascular disease, with a RAG-based query assistant.",
                 exp_uoc_bullet3: "Built a cardiovascular risk prediction model: data cleaning, feature engineering, and preprocessing pipeline, communicated in an interactive app and a presentation with embedded statistics.",
@@ -1132,7 +1132,7 @@ html_content = """<!DOCTYPE html>
                 section_exp: "Berufserfahrung",
                 exp_date_uoc: "2024 — Heute",
                 exp_title_uoc: "Ausbildung und Projekte in Data Science (Autodidaktisch)",
-                exp_subtitle_uoc: "UOC — Applied Data Science",
+                exp_subtitle_uoc: "Applied Data Science",
                 exp_uoc_bullet1: "Absolvierte strukturierte Schulungen in Python (Pandas, objektorientierte Programmierung, Kontrollfluss, Ausnahmebehandlung) und Versionskontrolle mit Git/GitHub.",
                 exp_uoc_bullet2: "Entwickelte eine Ingestions- und Speicherpipeline (SQLite) für wissenschaftliche PubMed-Artikel über Herz-Kreislauf-Erkrankungen mit einem RAG-basierten Abfrage-Assistenten.",
                 exp_uoc_bullet3: "Erstellte ein Modell zur Vorhersage des kardiovaskulären Risikos: Datenbereinigung, Feature-Engineering und Preprocessing-Pipeline, präsentiert in einer interaktiven App und einer Präsentation mit eingebetteten Statistiken.",
@@ -1182,7 +1182,7 @@ html_content = """<!DOCTYPE html>
                 section_exp: "Expérience Professionnelle",
                 exp_date_uoc: "2024 — Présent",
                 exp_title_uoc: "Formation et Projets en Data Science (Autodidacte)",
-                exp_subtitle_uoc: "UOC — Data Science Appliquée",
+                exp_subtitle_uoc: "Data Science Appliquée",
                 exp_uoc_bullet1: "J'ai suivi une formation structurée en Python (pandas, programmation orientée objet, contrôle de flux, gestion des exceptions) et en contrôle de version avec Git/GitHub.",
                 exp_uoc_bullet2: "J'ai développé un pipeline d'ingestion et de stockage (SQLite) d'articles scientifiques PubMed sur les maladies cardiovasculaires, avec un assistant de requête basé sur le RAG.",
                 exp_uoc_bullet3: "J'ai construit un modèle de prédiction du risque cardiovasculaire : nettoyage des données, ingénierie des variables et pipeline de prétraitement, communiqué dans une application interactive et une présentation avec des statistiques intégrées.",
@@ -1232,7 +1232,7 @@ html_content = """<!DOCTYPE html>
                 section_exp: "Esperienza Lavorativa",
                 exp_date_uoc: "2024 — Presente",
                 exp_title_uoc: "Formazione e Progetti in Data Science (Autodidatta)",
-                exp_subtitle_uoc: "UOC — Data Science Applicata",
+                exp_subtitle_uoc: "Data Science Applicata",
                 exp_uoc_bullet1: "Ho completato una formazione strutturata in Python (pandas, programmazione orientata agli oggetti, controllo di flusso, gestione delle eccezioni) e controllo della versione con Git/GitHub.",
                 exp_uoc_bullet2: "Ho sviluppato una pipeline di ingestione e archiviazione (SQLite) di articoli scientifici PubMed sulle malattie cardiovascolari, con un assistente di query basato su RAG.",
                 exp_uoc_bullet3: "Ho costruito un modello di previsione del rischio cardiovascolare: pulizia dei dati, feature engineering e pipeline di preprocessing, comunicato in un'app interattiva e una presentazione con statistiche integrate.",
