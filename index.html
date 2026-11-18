@@ -620,6 +620,32 @@
             color: white;
         }
 
+        .cert-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--navy-dark);
+            text-decoration: none;
+            padding: 3px 9px;
+            border-radius: 12px;
+            border: 1px solid var(--timeline-border);
+            background-color: var(--slate-light);
+            transition: all 0.25s ease;
+            margin-left: 0.4rem;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+
+        .cert-link:hover {
+            background-color: var(--btn-accent);
+            border-color: var(--btn-accent);
+            color: white;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(178, 55, 94, 0.25);
+        }
+
         /* --- Idiomas --- */
         .lang-cards {
             display: grid;
@@ -800,9 +826,9 @@
                     <div class="timeline-subtitle" data-i18n="exp_subtitle_courses">FomentFormacio, Barcelona</div>
                     <div class="timeline-content">
                         <ul>
-                            <li data-i18n="exp_courses_bullet1">Marketing Digital, SEO, SEM y Analítica Web.</li>
-                            <li data-i18n="exp_courses_bullet2">Google Analytics y Google Metatags.</li>
-                            <li data-i18n="exp_courses_bullet3">Marketing Digital.</li>
+                            <li><span data-i18n="exp_courses_bullet1">Marketing Digital, SEO, SEM y Analítica Web.</span> <a href="certificates/certificado_foment_seo_sem_analitica_web.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view">📄 Ver certificado</a></li>
+                            <li><span data-i18n="exp_courses_bullet2">Google Analytics y Google Metatags.</span> <a href="certificates/certificado_foment_marketing_digital.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view">📄 Ver certificado</a></li>
+                            <li><span data-i18n="exp_courses_bullet3">Marketing Digital.</span> <a href="certificates/certificado_foment_marketing_digital.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view">📄 Ver certificado</a></li>
                         </ul>
                     </div>
                 </div>
@@ -941,7 +967,10 @@
                 <div class="timeline-item">
                     <div class="timeline-date" data-i18n="edu2_date">Mar 2017 — Nov 2017</div>
                     <div class="timeline-title" data-i18n="edu2_title">Gestión Comercial y Marketing Farmacéutico</div>
-                    <div class="timeline-subtitle">Universidad Católica del Uruguay (UCU)</div>
+                    <div class="timeline-subtitle">
+                        <span>Universidad Católica del Uruguay (UCU)</span>
+                        <a href="certificates/diploma_ucu_visitador_medico.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view_diploma">📄 Ver diploma oficial</a>
+                    </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-date" data-i18n="edu3_date">2012 — 2017</div>
@@ -962,6 +991,10 @@
                 <div class="lang-card">
                     <div class="lang-name" data-i18n="lang_en">Inglés</div>
                     <div class="lang-level" data-i18n="lang_en_lvl">Fluido / Profesional</div>
+                    <div style="margin-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; align-items: center;">
+                        <a href="certificates/certificado_ingles_vhs.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view_en">📄 Certificado VHS B1</a>
+                        <a href="certificates/test_ingles_mcer.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view_en_test">📊 Test MCER (B2)</a>
+                    </div>
                 </div>
                 <div class="lang-card">
                     <div class="lang-name" data-i18n="lang_de">Alemán</div>
@@ -1062,6 +1095,7 @@
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestión Comercial y Marketing Farmacéutico",
                 edu3_date: "2012 — 2017", edu3_title: "Estudios de Medicina en formación", 
                 section_lang: "Idiomas", lang_es: "Español", lang_es_lvl: "Nativo", lang_en: "Inglés", lang_en_lvl: "Fluido / Profesional", lang_de: "Alemán", lang_de_lvl: "Básico (A1-A2) en formación",
+                cert_view: "📄 Ver certificado", cert_view_diploma: "📄 Ver diploma oficial", cert_view_en: "📄 Certificado VHS B1", cert_view_en_test: "📊 Test MCER (B2)",
                 footer_contact: "Contacto y Enlaces", footer_copy: "Todos los derechos reservados."
             },
             en: {
@@ -1112,6 +1146,7 @@
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Commercial Management & Pharma Marketing",
                 edu3_date: "2012 — 2017", edu3_title: "Medical Studies (In progress / Coursework)", 
                 section_lang: "Languages", lang_es: "Spanish", lang_es_lvl: "Native", lang_en: "English", lang_en_lvl: "Fluent / Professional", lang_de: "German", lang_de_lvl: "Basic (A1-A2) in training",
+                cert_view: "📄 View certificate", cert_view_diploma: "📄 View official diploma", cert_view_en: "📄 VHS B1 Certificate", cert_view_en_test: "📊 CEFR B2 Test",
                 footer_contact: "Contact & Links", footer_copy: "All rights reserved."
             },
             de: {
@@ -1162,6 +1197,7 @@
                 edu2_date: "Mär 2017 — Nov 2017", edu2_title: "Handelsmanagement und Pharma-Marketing",
                 edu3_date: "2012 — 2017", edu3_title: "Medizinstudium (in Ausbildung)", 
                 section_lang: "Sprachen", lang_es: "Spanisch", lang_es_lvl: "Muttersprache", lang_en: "Englisch", lang_en_lvl: "Fließend / Professionell", lang_de: "Deutsch", lang_de_lvl: "Grundkenntnisse (A1-A2)",
+                cert_view: "📄 Zertifikat anzeigen", cert_view_diploma: "📄 Offizielles Diplom anzeigen", cert_view_en: "📄 VHS B1 Zertifikat", cert_view_en_test: "📊 GER B2 Einstufungstest",
                 footer_contact: "Kontakt & Links", footer_copy: "Alle Rechte vorbehalten."
             },
             fr: {
@@ -1212,6 +1248,7 @@
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestion Commerciale et Marketing Pharmaceutique",
                 edu3_date: "2012 — 2017", edu3_title: "Études de médecine (en formation)", 
                 section_lang: "Langues", lang_es: "Espagnol", lang_es_lvl: "Maternel", lang_en: "Anglais", lang_en_lvl: "Courant / Professionnel", lang_de: "Allemand", lang_de_lvl: "Basique (A1-A2)",
+                cert_view: "📄 Voir le certificat", cert_view_diploma: "📄 Voir le diplôme officiel", cert_view_en: "📄 Certificat VHS B1", cert_view_en_test: "📊 Test CECR (B2)",
                 footer_contact: "Contact & Liens", footer_copy: "Tous droits réservés."
             },
             it: {
@@ -1262,6 +1299,7 @@
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestione Commerciale e Marketing Farmaceutico",
                 edu3_date: "2012 — 2017", edu3_title: "Studi di Medicina (in formazione)", 
                 section_lang: "Lingue", lang_es: "Spagnolo", lang_es_lvl: "Madrelingua", lang_en: "Inglese", lang_en_lvl: "Fluente / Professionale", lang_de: "Tedesco", lang_de_lvl: "Base (A1-A2)",
+                cert_view: "📄 Vedi certificato", cert_view_diploma: "📄 Vedi diploma ufficiale", cert_view_en: "📄 Certificato VHS B1", cert_view_en_test: "📊 Test QCER (B2)",
                 footer_contact: "Contatti e Link", footer_copy: "Tutti i diritti riservati."
             }
         };
