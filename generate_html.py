@@ -923,51 +923,23 @@ html_content = """<!DOCTYPE html>
         <!-- Proyectos Data Science -->
         <section id="projects">
             <h2 class="section-title" data-i18n="section_projects">Proyectos Data Science</h2>
-            <div class="projects-grid">
+            <div class="projects-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
                 
                 <div class="project-card">
-                    <div class="project-title" data-i18n="proj1_title">SafeRx AI - Asistente Clínico Inteligente</div>
+                    <div class="project-title" data-i18n="proj1_title">Sofia — Asistente Clínico y RAG de Psicofarmacología</div>
                     <div class="project-tech mono">
                         <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">RAG / LLM</span>
                         <span class="tech-tag">Streamlit</span>
-                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag" data-i18n="tag_safety">Farmacovigilancia</span>
                     </div>
                     <div class="project-desc" data-i18n="proj1_desc">
-                        Sistema de soporte a la decisión clínica (CDSS) impulsado por IA para la detección de incompatibilidades farmacológicas y prevención de eventos adversos.
+                        Sistema de soporte a la decisión clínica y generación aumentada por recuperación (RAG) especializado en psicofarmacología basada en la evidencia. Integra 244 documentos clínicos consolidados (Jufe, Stahl, CANMAT) para consulta posológica, análisis de interacciones enzimáticas del citocromo P450 y alertas de seguridad con política de grounding estricto.
                     </div>
                     <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: auto;">
-                        <a href="https://github.com/anacolinaarismendi/saferx-ai" target="_blank" class="project-link">🔗 <span data-i18n="proj_link">Ver repositorio</span></a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-title" data-i18n="proj2_title">Predicción de Riesgo Cardiovascular</div>
-                    <div class="project-tech mono">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Scikit-learn</span>
-                        <span class="tech-tag">Streamlit</span>
-                    </div>
-                    <div class="project-desc" data-i18n="proj2_desc">
-                        Modelo predictivo de Machine Learning y análisis epidemiológico sobre datos del Framingham Heart Study para evaluar el riesgo coronario a 10 años.
-                    </div>
-                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: auto;">
-                        <a href="https://github.com/anacolinaarismendi/Cardiovascular-Disease" target="_blank" class="project-link">🔗 <span data-i18n="proj_link">Ver repositorio</span></a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-title" data-i18n="proj3_title">Spotify Data Analysis</div>
-                    <div class="project-tech mono">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Pandas</span>
-                        <span class="tech-tag">Data Visualization</span>
-                    </div>
-                    <div class="project-desc" data-i18n="proj3_desc">
-                        Análisis exploratorio de datos (EDA) y visualización de métricas de audio y popularidad para extraer insights sobre tendencias musicales en Spotify.
-                    </div>
-                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: auto;">
-                        <a href="https://github.com/anacolinaarismendi/spotify" target="_blank" class="project-link">🔗 <span data-i18n="proj_link">Ver repositorio</span></a>
+                        <a href="https://appapppy-olzne8ryns9sw9j6dc6rbw.streamlit.app" target="_blank" rel="noopener noreferrer" class="project-link" style="background-color: var(--navy-dark); color: white; border-color: var(--navy-dark);">🚀 <span data-i18n="proj_demo">Ver aplicación</span></a>
+                        <a href="https://github.com/anacolinaarismendi/Sofia" target="_blank" rel="noopener noreferrer" class="project-link">🔗 <span data-i18n="proj_link">Ver repositorio</span></a>
                     </div>
                 </div>
 
@@ -1110,10 +1082,11 @@ html_content = """<!DOCTYPE html>
                 skill_group2: "Sector Farmacéutico", skill_pharma: "Farmacovigilancia", skill_bio: "Fármacos Biológicos", skill_safety: "Datos Regulatorios",
                 skill_group3: "Estrategia & KAM", skill_crm: "Sistemas CRM", skill_plan: "Visión de Negocio", skill_risk: "Gestión de Riesgos",
                 section_projects: "Proyectos Data Science",
-                proj1_title: "SafeRx AI - Asistente Clínico Inteligente", proj1_desc: "Sistema de soporte a la decisión clínica (CDSS) impulsado por IA para la detección de incompatibilidades farmacológicas y prevención de eventos adversos.",
-                proj2_title: "Predicción de Riesgo Cardiovascular", proj2_desc: "Modelo predictivo de Machine Learning y análisis epidemiológico sobre datos del Framingham Heart Study para evaluar el riesgo coronario a 10 años.",
-                proj3_title: "Spotify Data Analysis", proj3_desc: "Análisis exploratorio de datos (EDA) y visualización de métricas de audio y popularidad para extraer insights sobre tendencias musicales en Spotify.",
+                proj1_title: "Sofia — Asistente Clínico y RAG de Psicofarmacología",
+                proj1_desc: "Sistema de soporte a la decisión clínica y generación aumentada por recuperación (RAG) especializado en psicofarmacología basada en la evidencia. Integra 244 documentos clínicos consolidados (Jufe, Stahl, CANMAT) para consulta posológica, análisis de interacciones enzimáticas del citocromo P450 y alertas de seguridad con política de grounding estricto.",
+                proj_demo: "Ver aplicación",
                 proj_link: "Ver repositorio",
+                tag_safety: "Farmacovigilancia",
                 section_edu: "Educación y Formación",
                 edu1_date: "2024 — En curso", edu1_title: "Ciencia de Datos Aplicada",
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestión Comercial y Marketing Farmacéutico",
@@ -1167,10 +1140,11 @@ html_content = """<!DOCTYPE html>
                 skill_group2: "Pharmaceutical Sector", skill_pharma: "Pharmacovigilance", skill_bio: "Biological Drugs", skill_safety: "Regulatory Data",
                 skill_group3: "Strategy & KAM", skill_crm: "CRM Systems", skill_plan: "Business Acumen", skill_risk: "Risk Management",
                 section_projects: "Data Science Projects",
-                proj1_title: "SafeRx AI - Intelligent Clinical Assistant", proj1_desc: "AI-powered Clinical Decision Support System (CDSS) for detecting drug incompatibilities and preventing adverse events.",
-                proj2_title: "Cardiovascular Risk Prediction", proj2_desc: "Machine Learning predictive model and epidemiological analysis on Framingham Heart Study data to evaluate 10-year coronary risk.",
-                proj3_title: "Spotify Data Analysis", proj3_desc: "Exploratory Data Analysis (EDA) and visualization of audio metrics and popularity to extract insights on Spotify music trends.",
+                proj1_title: "Sofia — Clinical Assistant & Psychopharmacology RAG",
+                proj1_desc: "Clinical Decision Support System (CDSS) and Retrieval-Augmented Generation (RAG) specialized in evidence-based psychopharmacology. Integrates 244 consolidated clinical documents (Jufe, Stahl, CANMAT) for dosing queries, cytochrome P450 enzyme interaction analysis, and safety alerts with strict grounding.",
+                proj_demo: "View live app",
                 proj_link: "View repository",
+                tag_safety: "Pharmacovigilance",
                 section_edu: "Education & Background",
                 edu1_date: "2024 — In progress", edu1_title: "Applied Data Science",
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Commercial Management & Pharma Marketing",
@@ -1224,10 +1198,11 @@ html_content = """<!DOCTYPE html>
                 skill_group2: "Pharmasektor", skill_pharma: "Pharmakovigilanz", skill_bio: "Biologische Arzneimittel", skill_safety: "Regulatorische Daten",
                 skill_group3: "Strategie & KAM", skill_crm: "CRM-Systeme", skill_plan: "Geschäftsverständnis", skill_risk: "Risikomanagement",
                 section_projects: "Data Science Projekte",
-                proj1_title: "SafeRx AI - Intelligenter Klinischer Assistent", proj1_desc: "KI-gestütztes Clinical Decision Support System (CDSS) zur Erkennung von Arzneimittelunverträglichkeiten und zur Vorbeugung unerwünschter Ereignisse.",
-                proj2_title: "Vorhersage des kardiovaskulären Risikos", proj2_desc: "Prädiktives Machine Learning Modell und epidemiologische Analyse der Framingham Heart Study Daten zur Bewertung des 10-Jahres-Koronarrisikos.",
-                proj3_title: "Spotify Data Analysis", proj3_desc: "Explorative Datenanalyse (EDA) und Visualisierung von Audiometriken und Popularität zur Gewinnung von Erkenntnissen über Musiktrends auf Spotify.",
+                proj1_title: "Sofia — Klinische Assistentin & Psychopharmakologie-RAG",
+                proj1_desc: "Klinisches Entscheidungsunterstützungssystem (CDSS) und Retrieval-Augmented Generation (RAG) für evidenzbasierte Psychopharmakologie. Integriert 244 konsolidierte klinische Dokumente (Jufe, Stahl, CANMAT) für Dosierungsabfragen, Analyse von Cytochrom-P450-Interaktionen und Sicherheitswarnungen mit striktem Grounding.",
+                proj_demo: "Live-App ansehen",
                 proj_link: "Repo ansehen",
+                tag_safety: "Pharmakovigilanz",
                 section_edu: "Ausbildung",
                 edu1_date: "2024 — In Bearbeitung", edu1_title: "Applied Data Science",
                 edu2_date: "Mär 2017 — Nov 2017", edu2_title: "Handelsmanagement und Pharma-Marketing",
@@ -1281,10 +1256,11 @@ html_content = """<!DOCTYPE html>
                 skill_group2: "Secteur Pharmaceutique", skill_pharma: "Pharmacovigilance", skill_bio: "Médicaments Biologiques", skill_safety: "Données Réglementaires",
                 skill_group3: "Stratégie & KAM", skill_crm: "Systèmes CRM", skill_plan: "Vision Métier", skill_risk: "Gestion des Risques",
                 section_projects: "Projets Data Science",
-                proj1_title: "SafeRx AI - Assistant Clinique Intelligent", proj1_desc: "Système d'Aide à la Décision Clinique (CDSS) alimenté par l'IA pour la détection des incompatibilités médicamenteuses et la prévention des événements indésirables.",
-                proj2_title: "Prédiction du Risque Cardiovasculaire", proj2_desc: "Modèle prédictif de Machine Learning et analyse épidémiologique des données de la Framingham Heart Study pour évaluer le risque coronarien à 10 ans.",
-                proj3_title: "Spotify Data Analysis", proj3_desc: "Analyse Exploratoire des Données (EDA) et visualisation des métriques audio et de la popularité pour extraire des insights sur les tendances musicales de Spotify.",
+                proj1_title: "Sofia — Assistante Clinique et RAG en Psychopharmacologie",
+                proj1_desc: "Système d'aide à la décision clinique (CDSS) et génération augmentée par récupération (RAG) spécialisé en psychopharmacologie factuelle. Intègre 244 documents cliniques consolidés (Jufe, Stahl, CANMAT) pour les posologies, l'analyse des interactions enzymatiques du cytochrome P450 et les alertes de sécurité sous ancrage strict.",
+                proj_demo: "Voir l'application",
                 proj_link: "Voir le dépôt",
+                tag_safety: "Pharmacovigilance",
                 section_edu: "Éducation et Formation",
                 edu1_date: "2024 — En cours", edu1_title: "Applied Data Science",
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestion Commerciale et Marketing Pharmaceutique",
@@ -1338,10 +1314,11 @@ html_content = """<!DOCTYPE html>
                 skill_group2: "Settore Farmaceutico", skill_pharma: "Farmacovigilanza", skill_bio: "Farmaci Biologici", skill_safety: "Dati Normativi",
                 skill_group3: "Strategie & KAM", skill_crm: "Sistemi CRM", skill_plan: "Visione Aziendale", skill_risk: "Gestione del Rischio",
                 section_projects: "Progetti Data Science",
-                proj1_title: "SafeRx AI - Assistente Clinico Intelligente", proj1_desc: "Sistema di Supporto alle Decisioni Cliniche (CDSS) basato su IA per il rilevamento di incompatibilità farmacologiche e la prevenzione di eventi avversi.",
-                proj2_title: "Previsione del Rischio Cardiovascolare", proj2_desc: "Modello predittivo di Machine Learning e analisi epidemiologica sui dati del Framingham Heart Study per valutare il rischio coronarico a 10 anni.",
-                proj3_title: "Spotify Data Analysis", proj3_desc: "Analisi Esplorativa dei Dati (EDA) e visualizzazione delle metriche audio e di popolarità per estrarre insight sulle tendenze musicali di Spotify.",
+                proj1_title: "Sofia — Assistente Clinico e RAG di Psicofarmacologia",
+                proj1_desc: "Sistema di supporto alle decisioni cliniche (CDSS) e generazione aumentata da recupero (RAG) specializzato in psicofarmacologia basata sulle evidenze. Integra 244 documenti clinici consolidati (Jufe, Stahl, CANMAT) per dosaggi, analisi delle interazioni enzimatiche del citocromo P450 e avvisi di sicurezza con grounding rigoroso.",
+                proj_demo: "Vedi applicazione",
                 proj_link: "Vedi repository",
+                tag_safety: "Farmacovigilanza",
                 section_edu: "Formazione",
                 edu1_date: "2024 — In corso", edu1_title: "Applied Data Science",
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestione Commerciale e Marketing Farmaceutico",
