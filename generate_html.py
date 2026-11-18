@@ -848,6 +848,23 @@ html_content = """<!DOCTYPE html>
                     </div>
                 </div>
 
+                <!-- Voluntariado Pumarejo -->
+                <div class="timeline-item">
+                    <div class="timeline-date" data-i18n="exp_date_pumarejo">Oct 2019 — Jun 2021</div>
+                    <div class="timeline-title" data-i18n="exp_title_pumarejo">Voluntariado Social y Comunitario</div>
+                    <div class="timeline-subtitle">
+                        <span data-i18n="exp_subtitle_pumarejo">Asociación Mujeres Supervivientes — Casa del Pumarejo, Sevilla</span>
+                        <a href="certificates/certificado_voluntariado_pumarejo.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view_pumarejo">📄 Ver acreditación</a>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li data-i18n="exp_pumarejo_bullet1"><strong>Orientación y Acompañamiento Sanitario:</strong> Asesoré a mujeres en situación de vulnerabilidad en el acceso al sistema público de salud, gestión de tarjetas sanitarias y protocolos preventivos.</li>
+                            <li data-i18n="exp_pumarejo_bullet2"><strong>Dinamización y Talleres Formativos:</strong> Diseñé e impartí talleres socioeducativos sobre salud, autocuidado, derechos y prevención de la violencia, fomentando el empoderamiento personal.</li>
+                            <li data-i18n="exp_pumarejo_bullet3"><strong>Gestión Comunitaria y Recursos:</strong> Coordiné iniciativas de captación de fondos (crowdfunding) y articulación de redes de apoyo mutuo para dar respuesta a emergencias sociales y de acogida.</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <!-- Laboratorios Pellier -->
                 <div class="timeline-item">
                     <div class="timeline-date" data-i18n="exp_date">Ene 2015 — Oct 2017</div>
@@ -993,9 +1010,8 @@ html_content = """<!DOCTYPE html>
                 <div class="lang-card">
                     <div class="lang-name" data-i18n="lang_en">Inglés</div>
                     <div class="lang-level" data-i18n="lang_en_lvl">Fluido / Profesional</div>
-                    <div style="margin-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; align-items: center;">
-                        <a href="certificates/certificado_ingles_vhs.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view_en">📄 Certificado VHS B1</a>
-                        <a href="certificates/test_ingles_mcer.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view_en_test">📊 Test MCER (B2)</a>
+                    <div style="margin-top: 0.8rem;">
+                        <a href="certificates/certificado_ingles_vhs.pdf" target="_blank" rel="noopener noreferrer" class="cert-link" data-i18n="cert_view">📄 Ver certificado</a>
                     </div>
                 </div>
                 <div class="lang-card">
@@ -1079,6 +1095,12 @@ html_content = """<!DOCTYPE html>
                 exp_date_aula: "Feb 2019 — Nov 2022", exp_title_aula: "Docente de Ciencias",
                 exp_aula_bullet1: "<strong>Comunicación de Datos Complejos:</strong> Traduje conceptos científicos complejos a un lenguaje accesible, habilidad esencial para el data storytelling y la presentación de insights a stakeholders de negocio.",
                 exp_aula_bullet2: "<strong>Seguimiento de Rendimiento:</strong> Analicé y evalué métricas de progreso de los estudiantes para iterar y optimizar las metodologías de enseñanza, mejorando los resultados académicos.",
+                exp_date_pumarejo: "Oct 2019 — Jun 2021", exp_title_pumarejo: "Voluntariado Social y Comunitario",
+                exp_subtitle_pumarejo: "Asociación Mujeres Supervivientes — Casa del Pumarejo, Sevilla",
+                exp_pumarejo_bullet1: "<strong>Orientación y Acompañamiento Sanitario:</strong> Asesoré a mujeres en situación de vulnerabilidad en el acceso al sistema público de salud, gestión de tarjetas sanitarias y protocolos preventivos.",
+                exp_pumarejo_bullet2: "<strong>Dinamización y Talleres Formativos:</strong> Diseñé e impartí talleres socioeducativos sobre salud, autocuidado, derechos y prevención de la violencia, fomentando el empoderamiento personal.",
+                exp_pumarejo_bullet3: "<strong>Gestión Comunitaria y Recursos:</strong> Coordiné iniciativas de captación de fondos (crowdfunding) y articulación de redes de apoyo mutuo para dar respuesta a emergencias sociales y de acogida.",
+                cert_view_pumarejo: "📄 Ver acreditación",
                 exp_date: "Ene 2015 — Oct 2017", exp_title: "Visitadora Médica / KAM",
                 exp_bullet1: "<strong>Análisis y Gestión CRM:</strong> Administré la información de pacientes e interacciones médicas en sistemas CRM, utilizando los datos para optimizar la prospección y gestionar cuentas clave (Neurología, Pediatría y Cirugía Plástica).",
                 exp_bullet2: "<strong>Farmacovigilancia y Calidad de Datos:</strong> Recopilé y reporté rigurosamente datos de seguridad y seguimiento de pacientes con Esclerosis Múltiple, colaborando con neurólogos para asegurar la precisión de la información clínica.",
@@ -1097,7 +1119,7 @@ html_content = """<!DOCTYPE html>
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestión Comercial y Marketing Farmacéutico",
                 edu3_date: "2012 — 2017", edu3_title: "Estudios de Medicina en formación", 
                 section_lang: "Idiomas", lang_es: "Español", lang_es_lvl: "Nativo", lang_en: "Inglés", lang_en_lvl: "Fluido / Profesional", lang_de: "Alemán", lang_de_lvl: "Básico (A1-A2) en formación",
-                cert_view: "📄 Ver certificado", cert_view_diploma: "📄 Ver diploma oficial", cert_view_en: "📄 Certificado VHS B1", cert_view_en_test: "📊 Test MCER (B2)",
+                cert_view: "📄 Ver certificado", cert_view_diploma: "📄 Ver diploma oficial",
                 footer_contact: "Contacto y Enlaces", footer_copy: "Todos los derechos reservados."
             },
             en: {
@@ -1130,6 +1152,12 @@ html_content = """<!DOCTYPE html>
                 exp_date_aula: "Feb 2019 — Nov 2022", exp_title_aula: "Science Teacher",
                 exp_aula_bullet1: "<strong>Complex Data Communication:</strong> Translated complex scientific concepts into accessible language, an essential skill for data storytelling and presenting insights to business stakeholders.",
                 exp_aula_bullet2: "<strong>Performance Tracking:</strong> Analyzed and evaluated student progress metrics to iterate and optimize teaching methodologies, improving academic results.",
+                exp_date_pumarejo: "Oct 2019 — Jun 2021", exp_title_pumarejo: "Social & Community Volunteering",
+                exp_subtitle_pumarejo: "Mujeres Supervivientes Association — Casa del Pumarejo, Seville",
+                exp_pumarejo_bullet1: "<strong>Healthcare Guidance & Support:</strong> Assisted vulnerable women in navigating the public healthcare system, processing health cards, and implementing preventive safety protocols.",
+                exp_pumarejo_bullet2: "<strong>Workshops & Educational Facilitation:</strong> Designed and led community workshops on health, self-care, human rights, and gender-based violence prevention to foster empowerment.",
+                exp_pumarejo_bullet3: "<strong>Community Management & Fundraising:</strong> Coordinated crowdfunding campaigns and grassroots support networks to address social emergencies and shelter needs.",
+                cert_view_pumarejo: "📄 View accreditation",
                 exp_date: "Jan 2015 — Oct 2017", exp_title: "Medical Representative / KAM",
                 exp_bullet1: "<strong>CRM Analysis and Management:</strong> Managed patient information and medical interactions in CRM systems, using data to optimize prospecting and manage key accounts (Neurology, Pediatrics, and Plastic Surgery).",
                 exp_bullet2: "<strong>Pharmacovigilance and Data Quality:</strong> Rigorously collected and reported safety and follow-up data for patients with Multiple Sclerosis, collaborating with neurologists to ensure clinical information accuracy.",
@@ -1148,7 +1176,7 @@ html_content = """<!DOCTYPE html>
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Commercial Management & Pharma Marketing",
                 edu3_date: "2012 — 2017", edu3_title: "Medical Studies (In progress / Coursework)", 
                 section_lang: "Languages", lang_es: "Spanish", lang_es_lvl: "Native", lang_en: "English", lang_en_lvl: "Fluent / Professional", lang_de: "German", lang_de_lvl: "Basic (A1-A2) in training",
-                cert_view: "📄 View certificate", cert_view_diploma: "📄 View official diploma", cert_view_en: "📄 VHS B1 Certificate", cert_view_en_test: "📊 CEFR B2 Test",
+                cert_view: "📄 View certificate", cert_view_diploma: "📄 View official diploma",
                 footer_contact: "Contact & Links", footer_copy: "All rights reserved."
             },
             de: {
@@ -1181,6 +1209,12 @@ html_content = """<!DOCTYPE html>
                 exp_date_aula: "Feb 2019 — Nov 2022", exp_title_aula: "Naturwissenschaftslehrerin",
                 exp_aula_bullet1: "<strong>Kommunikation komplexer Daten:</strong> Übersetzte komplexe wissenschaftliche Konzepte in eine verständliche Sprache – eine wesentliche Fähigkeit für Data Storytelling und die Präsentation von Insights vor Business-Stakeholdern.",
                 exp_aula_bullet2: "<strong>Leistungsverfolgung:</strong> Analysierte und bewertete Fortschrittsmetriken der Studierenden, um Lehrmethoden zu iterieren und zu optimieren und so die akademischen Ergebnisse zu verbessern.",
+                exp_date_pumarejo: "Okt 2019 — Jun 2021", exp_title_pumarejo: "Soziale und gemeinnützige Freiwilligenarbeit",
+                exp_subtitle_pumarejo: "Verein Mujeres Supervivientes — Casa del Pumarejo, Sevilla",
+                exp_pumarejo_bullet1: "<strong>Gesundheitsberatung und -begleitung:</strong> Unterstützung von Frauen in schwierigen Lebenslagen beim Zugang zum Gesundheitssystem, Krankenversicherungskarten und Präventionsprotokollen.",
+                exp_pumarejo_bullet2: "<strong>Workshops und Bildungsarbeit:</strong> Konzeption und Durchführung von Workshops zu Gesundheit, Selbstfürsorge, Rechten und Gewaltprävention zur Förderung der Selbstbestimmung.",
+                exp_pumarejo_bullet3: "<strong>Gemeinschaftsmanagement und Mittelbeschaffung:</strong> Koordination von Crowdfunding-Initiativen und Hilfsnetzwerken zur Bewältigung sozialer Notlagen.",
+                cert_view_pumarejo: "📄 Bescheinigung anzeigen",
                 exp_date: "Jan 2015 — Okt 2017", exp_title: "Pharmareferentin / KAM",
                 exp_bullet1: "<strong>CRM-Analyse und -Management:</strong> Verwaltete Patienteninformationen und medizinische Interaktionen in CRM-Systemen und nutzte Daten, um die Akquise zu optimieren und Großkunden (Neurologie, Pädiatrie und plastische Chirurgie) zu betreuen.",
                 exp_bullet2: "<strong>Pharmakovigilanz und Datenqualität:</strong> Sammelte und meldete strikt Sicherheits- und Follow-up-Daten für Patienten mit Multipler Sklerose in Zusammenarbeit mit Neurologen, um die Genauigkeit der klinischen Informationen sicherzustellen.",
@@ -1199,7 +1233,7 @@ html_content = """<!DOCTYPE html>
                 edu2_date: "Mär 2017 — Nov 2017", edu2_title: "Handelsmanagement und Pharma-Marketing",
                 edu3_date: "2012 — 2017", edu3_title: "Medizinstudium (in Ausbildung)", 
                 section_lang: "Sprachen", lang_es: "Spanisch", lang_es_lvl: "Muttersprache", lang_en: "Englisch", lang_en_lvl: "Fließend / Professionell", lang_de: "Deutsch", lang_de_lvl: "Grundkenntnisse (A1-A2)",
-                cert_view: "📄 Zertifikat anzeigen", cert_view_diploma: "📄 Offizielles Diplom anzeigen", cert_view_en: "📄 VHS B1 Zertifikat", cert_view_en_test: "📊 GER B2 Einstufungstest",
+                cert_view: "📄 Zertifikat anzeigen", cert_view_diploma: "📄 Offizielles Diplom anzeigen",
                 footer_contact: "Kontakt & Links", footer_copy: "Alle Rechte vorbehalten."
             },
             fr: {
@@ -1232,6 +1266,12 @@ html_content = """<!DOCTYPE html>
                 exp_date_aula: "Fév 2019 — Nov 2022", exp_title_aula: "Professeure de Sciences",
                 exp_aula_bullet1: "<strong>Communication de Données Complexes :</strong> J'ai traduit des concepts scientifiques complexes dans un langage accessible, compétence essentielle pour le data storytelling et la présentation d'insights aux parties prenantes.",
                 exp_aula_bullet2: "<strong>Suivi des Performances :</strong> J'ai analysé et évalué les métriques de progression des étudiants pour itérer et optimiser les méthodologies d'enseignement, améliorant les résultats académiques.",
+                exp_date_pumarejo: "Oct 2019 — Juin 2021", exp_title_pumarejo: "Bénévolat Social et Communautaire",
+                exp_subtitle_pumarejo: "Association Mujeres Supervivientes — Casa del Pumarejo, Séville",
+                exp_pumarejo_bullet1: "<strong>Accompagnement et Orientation Sanitaire :</strong> Soutien aux femmes vulnérables pour l'accès aux soins, démarches de carte de santé et protocoles de prévention sanitaire.",
+                exp_pumarejo_bullet2: "<strong>Ateliers et Animation Socio-éducative :</strong> Conception et animation d'ateliers sur la santé, l'autonomie, les droits et la prévention des violences pour encourager l'émancipation.",
+                exp_pumarejo_bullet3: "<strong>Gestion Communautaire et Levée de Fonds :</strong> Coordination de collectes de fonds participatives (crowdfunding) et de réseaux de solidarité face aux urgences sociales.",
+                cert_view_pumarejo: "📄 Voir l'attestation",
                 exp_date: "Jan 2015 — Oct 2017", exp_title: "Visiteuse Médicale / KAM",
                 exp_bullet1: "<strong>Analyse et Gestion CRM :</strong> J'ai géré les informations des patients et les interactions médicales dans les systèmes CRM, utilisant les données pour optimiser la prospection et gérer les comptes clés (Neurologie, Pédiatrie et Chirurgie Plastique).",
                 exp_bullet2: "<strong>Pharmacovigilance et Qualité des Données :</strong> J'ai rigoureusement collecté et signalé les données de sécurité et de suivi des patients atteints de sclérose en plaques, en collaborant avec des neurologues pour assurer l'exactitude des informations cliniques.",
@@ -1250,7 +1290,7 @@ html_content = """<!DOCTYPE html>
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestion Commerciale et Marketing Pharmaceutique",
                 edu3_date: "2012 — 2017", edu3_title: "Études de médecine (en formation)", 
                 section_lang: "Langues", lang_es: "Espagnol", lang_es_lvl: "Maternel", lang_en: "Anglais", lang_en_lvl: "Courant / Professionnel", lang_de: "Allemand", lang_de_lvl: "Basique (A1-A2)",
-                cert_view: "📄 Voir le certificat", cert_view_diploma: "📄 Voir le diplôme officiel", cert_view_en: "📄 Certificat VHS B1", cert_view_en_test: "📊 Test CECR (B2)",
+                cert_view: "📄 Voir le certificat", cert_view_diploma: "📄 Voir le diplôme officiel",
                 footer_contact: "Contact & Liens", footer_copy: "Tous droits réservés."
             },
             it: {
@@ -1283,6 +1323,12 @@ html_content = """<!DOCTYPE html>
                 exp_date_aula: "Feb 2019 — Nov 2022", exp_title_aula: "Insegnante di Scienze",
                 exp_aula_bullet1: "<strong>Comunicazione di Dati Complessi:</strong> Ho tradotto concetti scientifici complessi in un linguaggio accessibile, competenza essenziale per il data storytelling e la presentazione di insight agli stakeholder aziendali.",
                 exp_aula_bullet2: "<strong>Monitoraggio delle Prestazioni:</strong> Ho analizzato e valutato le metriche di progresso degli studenti per iterare e ottimizzare le metodologie di insegnamento, migliorando i risultati accademici.",
+                exp_date_pumarejo: "Ott 2019 — Giu 2021", exp_title_pumarejo: "Volontariato Sociale e Comunitario",
+                exp_subtitle_pumarejo: "Associazione Mujeres Supervivientes — Casa del Pumarejo, Siviglia",
+                exp_pumarejo_bullet1: "<strong>Orientamento e Supporto Sanitario:</strong> Assistenza a donne in condizioni di vulnerabilità per l'accesso al sistema sanitario, pratiche burocratiche e protocolli di prevenzione.",
+                exp_pumarejo_bullet2: "<strong>Workshop e Formazione:</strong> Progettazione e conduzione di laboratori su salute, cura di sé, diritti e prevenzione della violenza per promuovere l'empowerment.",
+                exp_pumarejo_bullet3: "<strong>Gestione Comunitaria e Raccolta Fondi:</strong> Coordinamento di campagne di crowdfunding e reti di solidarietà per rispondere a situazioni di emergenza sociale.",
+                cert_view_pumarejo: "📄 Vedi attestazione",
                 exp_date: "Gen 2015 — Ott 2017", exp_title: "Informatore Medico Scientifico / KAM",
                 exp_bullet1: "<strong>Analisi e Gestione CRM:</strong> Ho amministrato le informazioni dei pazienti e le interazioni mediche nei sistemi CRM, utilizzando i dati per ottimizzare la prospezione e gestire i key account (Neurologia, Pediatria e Chirurgia Plastica).",
                 exp_bullet2: "<strong>Farmacovigilanza e Qualità dei Dati:</strong> Ho raccolto e segnalato rigorosamente i dati di sicurezza e di follow-up per i pazienti con Sclerosi Multipla, collaborando con i neurologi per garantire l'accuratezza delle informazioni cliniche.",
@@ -1301,7 +1347,7 @@ html_content = """<!DOCTYPE html>
                 edu2_date: "Mar 2017 — Nov 2017", edu2_title: "Gestione Commerciale e Marketing Farmaceutico",
                 edu3_date: "2012 — 2017", edu3_title: "Studi di Medicina (in formazione)", 
                 section_lang: "Lingue", lang_es: "Spagnolo", lang_es_lvl: "Madrelingua", lang_en: "Inglese", lang_en_lvl: "Fluente / Professionale", lang_de: "Tedesco", lang_de_lvl: "Base (A1-A2)",
-                cert_view: "📄 Vedi certificato", cert_view_diploma: "📄 Vedi diploma ufficiale", cert_view_en: "📄 Certificato VHS B1", cert_view_en_test: "📊 Test QCER (B2)",
+                cert_view: "📄 Vedi certificato", cert_view_diploma: "📄 Vedi diploma ufficiale",
                 footer_contact: "Contatti e Link", footer_copy: "Tutti i diritti riservati."
             }
         };
